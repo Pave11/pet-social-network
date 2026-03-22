@@ -139,3 +139,19 @@ a.secondary {
     --button-secondary-border: #1a1a1a;
   }
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  flex: 1;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #f0f0f0;
+}
